@@ -1,4 +1,5 @@
 
+
 print("lista zakupów")
  
 shopping_dict = { 
@@ -6,4 +7,6 @@ shopping_dict = {
     "warzywniak": ['Marchew', 'Seler', 'Rukola']
 }
 
+for shop, list in shopping_dict.items():
+    print(f"Idę do {shop.capitalize()} kupuje tu nstępujące rzeczy: {list}")
 
