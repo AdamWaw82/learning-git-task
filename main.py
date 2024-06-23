@@ -12,3 +12,4 @@ for shop, list in shopping_dict.items():
 print(f"W sumie kupuje tu {sum([len(item) for item in shopping_dict.values()])} produktów")
 
 print("Commit nr 2")
+print("Commit nr 3")
